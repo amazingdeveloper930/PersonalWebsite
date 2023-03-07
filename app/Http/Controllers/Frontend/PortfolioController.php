@@ -17,8 +17,8 @@ class PortfolioController extends FrontendController
         $this -> page = "page.portfolio";
 
         $this -> specialMenu = [
-            'big_menu' => 'Portfolio',
-            'small_menu' => 'portfolio page'
+            'big_menu' => 'Portfolio Page',
+            'small_menu' => 'Please check my past work on here'
         ];
         $tags = Tags::all();
         $params = array();
