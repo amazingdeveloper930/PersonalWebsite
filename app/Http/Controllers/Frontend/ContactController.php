@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\TemplateController;
 use Illuminate\Support\Facades\Config;
 use App\Models\Message;
+use App\Mail\SingleMailTemp;
 use Mail;
 
 
@@ -33,12 +34,15 @@ class ContactController extends FrontendController
         $message -> subject = $_POST['subject'];
         $message -> message = $_POST['message'];
         $message -> save();
+
+
+        
         $tpl_plain = "Name : " . $message -> name .
         "
         Email : " . $message -> email . "
         Message : " .  $message -> message ;
         $tpl_html = nl2br($tpl_plain);
-        Mail::to('dreamcomestrue9999@gmail.com')->send(new SingleMailTemp($subject, $tpl_html ));
+        Mail::to('dreamcomestrue9999@gmail.com')->send(new SingleMailTemp($message -> subject, $tpl_html ));
         return 'OK';
 
     }
