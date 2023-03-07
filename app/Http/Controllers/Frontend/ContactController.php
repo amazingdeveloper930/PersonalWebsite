@@ -42,7 +42,7 @@ class ContactController extends FrontendController
         Email : " . $message -> email . "
         Message : " .  $message -> message ;
         $tpl_html = nl2br($tpl_plain);
-        Mail::to('dreamcomestrue9999@gmail.com')->send(new SingleMailTemp($message -> subject, $tpl_html ));
+        // Mail::to('dreamcomestrue9999@gmail.com')->send(new SingleMailTemp($message -> subject, $tpl_html ));
         return 'OK';
 
     }
