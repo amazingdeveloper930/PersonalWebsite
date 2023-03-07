@@ -32,7 +32,7 @@
                     <a href="#" ><img src="{{ asset('assets/img/clients/cl-2.jpg') }}" alt="" />
                     
                         <div class="tm-title">
-                            Highly skilled And humble
+                            Highly skilled, Trustworthy
                         </div>
                         <div class="tm-text">
                             "Oliver is a humble and highly skilled person. I have worked with Oliver on a number of projects and he always delivered on time & within budget. More importantly, the delivery was efficient and cost-effective."
@@ -53,7 +53,7 @@
                   <div class="tooltip-demo thumbnail">
                     <a href="#" ><img src="{{ asset('assets/img/clients/cl-3.jpg') }}" alt="" />
                         <div class="tm-title">
-                            Timely manner
+                            Perfect!!
                         </div>
                         <div class="tm-text">
                             "Oliver is an excellent web deveoper. I hired him to do some complicated web scraping and he was able to deliver on a timely manner and for a reasonable price.

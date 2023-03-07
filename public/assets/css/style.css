@@ -203,6 +203,12 @@ header .navbar .brand.logo {
     padding: 0;
     text-transform: uppercase;
 }
+
+.intro-main h4{
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+
 /* -- top menu -- */
 header .navbar-inverse .brand,
 header .navbar-inverse .nav > li > a {

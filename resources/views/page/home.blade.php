@@ -9,11 +9,12 @@
     <div class="intro-main">
         <h1><font>FullStack Web Development</font></h1>
         
-        <p><a class="btn btn-large btn-success" href="/contact-founder/">CONTACT WITH OLIVER</a></p>
+        <p><a class="btn btn-large btn-success" href="{{ route('page_path', ['controller' => 'contact'])}}">CONTACT WITH OLIVER</a></p>
         <p class="intro-text">Oliver Kim's Personal Website</p>
         <h4>
-            <span>Specialized in</span>
-            <span><strong>Backend | Frontend | Ecommerce</strong></span>
+            <span>Specialized in</span><br/>
+            <span><strong>Backend | Frontend | Ecommerce</strong> <br/></span>
+            
         </h4>
         
     </div>
