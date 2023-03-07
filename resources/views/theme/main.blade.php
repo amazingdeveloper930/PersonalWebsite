@@ -38,7 +38,7 @@
   ======================================================= -->
 </head>
     @include('theme.navbar')
-    @if(strtolower(request() -> route('controller')) != 'home')
+    @if(strtolower(request() -> route('controller')) != '' && strtolower(request() -> route('controller')) != 'home')
       @include('theme.description')
     @endif
     @yield('page-content')
