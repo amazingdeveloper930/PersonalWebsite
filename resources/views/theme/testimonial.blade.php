@@ -1,6 +1,6 @@
 <div class="row">
     <div class="span12">
-        <h3 class="heading-success"><span class="btn btn-large btn-success"><i class="m-icon-big-swapdown m-icon-white"></i></span>&nbsp;&nbsp;Wjat My Clients Say</h3>
+        <h3 class="heading-success"><span class="btn btn-large btn-success"><i class="m-icon-big-swapdown m-icon-white"></i></span>&nbsp;&nbsp;What My Clients Say</h3>
 
         <div id="panel-testimonial" class=" btleft testimonial">
           <div class="testimonial-wrapper">

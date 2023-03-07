@@ -191,6 +191,7 @@ header .navbar .brand.logo {
     margin-right: auto;
 	padding: 0px 50px;
 	width: 100%;
+	box-sizing: border-box;
 }
 .intro-main h1{
 	font-size: 60px;
