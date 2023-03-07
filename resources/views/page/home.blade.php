@@ -12,7 +12,7 @@
         <p><a class="btn btn-large btn-success" href="{{ route('page_path', ['controller' => 'contact'])}}">CONTACT WITH OLIVER</a></p>
         <p class="intro-text">Oliver Kim's Personal Website</p>
         <h4>
-            <span>Specialized in</span><br/>
+            <span>SPECIALIZED IN</span><br/>
             <span><strong>Backend | Frontend | Ecommerce</strong> <br/></span>
             
         </h4>

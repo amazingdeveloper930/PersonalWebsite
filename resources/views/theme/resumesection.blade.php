@@ -18,7 +18,7 @@
           <div class="span6">
             <div class="btn-toolbar cta">
               <a class="btn btn-large btn-danger" href="{{ route('page_path', ['controller' => 'contact'])}}"><i class="m-icon-big-swapright m-icon-white"></i> Contact</a>
-              <a class="btn btn-large btn-success" href="#"><i class="m-icon-big-swapdown m-icon-white"></i> Download CV</a>
+              <a class="btn btn-large btn-success" href="{{ asset("assets/pdf/resume.pdf")}}" download><i class="m-icon-big-swapdown m-icon-white"></i> Download CV</a>
             </div>
           </div>
 
