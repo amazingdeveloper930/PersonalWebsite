@@ -57,7 +57,7 @@
                         </div>
                         <div class="tm-text">
                             "Oliver is an excellent web deveoper. I hired him to do some complicated web scraping and he was able to deliver on a timely manner and for a reasonable price.
-                            He is excellent to work with and a very good engineer that pays attention to the fine details."
+                            He is excellent to work with and a very good web developer that pays attention to fine details."
                         </div>
                         <div class="tm-name">
                             Frank Morrison

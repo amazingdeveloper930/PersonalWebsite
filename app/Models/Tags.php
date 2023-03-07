@@ -5,7 +5,6 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\ProjectTag;
 use App\Models\Projects;
-use App\Models\Tags;
 
 class Tags extends Model
 {
