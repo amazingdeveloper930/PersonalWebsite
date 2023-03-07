@@ -12,7 +12,7 @@
 					</address>
           </div>
         </div>
-        <div class="span4">
+        {{-- <div class="span4">
           <div class="widget">
             <h4>Browse pages</h4>
             <ul class="nav nav-list regular">
@@ -49,7 +49,7 @@
               <li class="dribbble"><a href="#" title="Dribbble">Dribbble</a></li>
             </ul>
           </div>
-        </div>
+        </div> --}}
       </div>
     </div>
 
