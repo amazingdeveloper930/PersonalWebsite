@@ -19,7 +19,7 @@ class AboutController extends FrontendController
             'big_menu' => 'About Me',
             'small_menu' => ''
         ];
-        $this -> js = ['contactform/contactform.js'];a
+        $this -> js = ['contactform/contactform.js'];
     }
     public function make(){
 
