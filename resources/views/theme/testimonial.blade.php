@@ -32,7 +32,7 @@
                     <a href="#" ><img src="{{ asset('assets/img/clients/cl-2.jpg') }}" alt="" />
                     
                         <div class="tm-title">
-                            Highly skilled, Trustworthy
+                            Highly skilled, Trustworthy developer
                         </div>
                         <div class="tm-text">
                             "Oliver is a humble and highly skilled person. I have worked with Oliver on a number of projects and he always delivered on time & within budget. More importantly, the delivery was efficient and cost-effective."
