@@ -16,7 +16,7 @@
                     <div class="tab-content">
                         <div class="tab-pane active" id="all">
                           <ul class="portfolio-area da-thumbs">
-                            @foreach(App\Models\Projects::inRandomOrder() -> get() as $project)
+                            @foreach(App\Models\Projects::orderby('id', 'DESC') -> get() as $project)
                             <li>
                               <div class="col">
                                 <div class="thumbnail">
@@ -43,7 +43,7 @@
                         <div class="tab-pane" id="{{"category_" . $tag -> id}}">
                           
                           <ul class="portfolio-area da-thumbs">
-                            @foreach($tag -> projects as $project)
+                            @foreach($tag -> projects -> reverse() as $project)
                             <li>
                                 <div class="col">
                                   <div class="thumbnail">

@@ -22,8 +22,9 @@
             <aside>
               
               <div class="widget">
-                <h4 class="heading-success"><span class="btn btn-large btn-success"><i class="m-icon-big-swapdown m-icon-white"></i></span>&nbsp;&nbsp;Project detail</h4>
+                <h4 class="heading-success"><span class="btn btn-large btn-success"><i class="m-icon-big-swapdown m-icon-white"></i></span>&nbsp;&nbsp;Project Information</h4>
                 <ul class="project-detal">
+                  <li><label>Title : {{ $project -> title }}</label> </li>
                   <li><label>Start Date : {{ $project -> start_date }}</label> </li>
                   <li><label>End Date : {{ $project -> end_date }}</label> </li>
                   <li><label>Skills : {{ $project -> skills }}</label><br /> 
