@@ -4,6 +4,20 @@
 <section id="maincontent">
     <div class="container">
         <div class="row">
+          <div class="span8">
+            <article class="blog-post">
+              <div class="tooltip-demo headline">
+                <h4><strong>{{ $project -> title }}</strong></h4>
+                
+              </div>
+              <div class="clearfix"></div>
+              <div class="well">
+                <a href="#"><img src="{{ asset("assets/img/portfolios/" . $project -> bigImage() -> path) }}" alt="" /></a>
+                
+              </div>
+            </article>
+  
+          </div>
           <div class="span4">
             <aside>
               
@@ -14,20 +28,11 @@
                   <li><label>End Date : {{ $project -> end_date }}</label> </li>
                   <li><label>Skills : {{ $project -> skills }}</label><br /> 
                   </li>
-                </ul>
-              </div>
-            </aside>
-          </div>
-          <div class="span8">
-            <article class="blog-post">
-              <div class="tooltip-demo headline">
-                <h4>{{ $project -> title }}</h4>
-                
-              </div>
-              <div class="clearfix"></div>
-              <div class="well">
-                <a href="#"><img src="{{ asset("assets/img/portfolios/" . $project -> bigImage() -> path) }}" alt="" /></a>
-                <h5>Description : </h5>
+                  <li>
+                    <a href="{{ $project -> url}}" class="btn btn-large btn-success" target="_blank">Visit This Project</a>
+                  </li>
+                  <li>
+                    <label>Description : </label> <br/>
                 <p>
                   <?php
                     $description = $project -> description;
@@ -36,11 +41,13 @@
                   ?>
                   {!! $description !!}
                 </p>
-                <a href="{{ $project -> url}}" class="btn btn-large btn-success" target="_blank">Visit This Project</a>
+                
+                  </li>
+                </ul>
               </div>
-            </article>
-  
+            </aside>
           </div>
+          
         </div>
       </div>
 </section>
