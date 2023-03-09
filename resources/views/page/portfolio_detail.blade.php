@@ -29,7 +29,12 @@
                 <a href="#"><img src="{{ asset("assets/img/portfolios/" . $project -> bigImage() -> path) }}" alt="" /></a>
                 <h5>Description : </h5>
                 <p>
-                  {!! $project -> description !!}
+                  <?php
+                    $description = $project -> description;
+                    $description = str_replace("<br/>", '', $description);
+                    $description = nl2br($description);
+                  ?>
+                  {!! $description !!}
                 </p>
                 <a href="{{ $project -> url}}" class="btn btn-large btn-success" target="_blank">Visit This Project</a>
               </div>
