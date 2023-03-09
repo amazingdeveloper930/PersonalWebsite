@@ -22,6 +22,7 @@
 <section id="maincontent">
     <div class="container">
         @include('theme.resumesection')
+        @include('theme.service')
         @include('theme.testimonial')
     </div>
 </section>
