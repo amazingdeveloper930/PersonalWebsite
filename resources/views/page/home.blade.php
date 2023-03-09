@@ -24,6 +24,7 @@
         @include('theme.resumesection')
         @include('theme.service')
         @include('theme.testimonial')
+        @include('theme.recentproject')
     </div>
 </section>
 @endsection

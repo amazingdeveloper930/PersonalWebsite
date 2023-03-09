@@ -20,7 +20,7 @@ class HomeController extends FrontendController
             'big_menu' => 'Home',
             'small_menu' => 'Privacy Policy'
         ];
-        $projects = Projects::limit(6) -> orderBy('id', 'DESC') -> get();
+        $projects = Projects::limit(4) -> orderBy('id', 'DESC') -> get();
         $params = array();
         $params['projects'] = $projects;
         $this -> params = array_merge($this -> params, $params);

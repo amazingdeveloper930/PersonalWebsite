@@ -14,10 +14,9 @@
         <div class="span12">
           <h3><a class="btn btn-large btn-success" href="#"><i class="m-icon-big-swapdown m-icon-white"></i></a> Recent works</h3>
 
-          <div id="latest-work" class="carousel btleft">
-            <div class="carousel-wrapper">
+          <div id="latest-work" class=" btleft">
 
-              <ul class="portfolio-home da-thumbs">
+              <ul class="portfolio-area da-thumbs">
                 @foreach($projects as $project)
                 <li>
                   <div class="thumbnail">
@@ -29,14 +28,13 @@
                       </article>
                     </div>
                     <div class="caption">
-                      <h5>{{ $project -> title}}</h5>
+                      <h4><a href="{{ route('page_path', ['controller' => 'portfolio', 'func' => 'details', 'para' => $project -> id])}}">{{ $project -> title }}</a></h4>
                     </div>
 
                   </div>
                 </li>
                 @endforeach
               </ul>
-            </div>
           </div>
         </div>
       </div>

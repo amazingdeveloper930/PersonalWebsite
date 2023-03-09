@@ -436,9 +436,9 @@
 	};
 	
 })( window, jQuery );
-                    $(document).ready(function(){
-                        $('#latest-work').elastislide({
-                            imageW  : 220,
-                            margin  : 40                    
-                        });
-                    });
+                    // $(document).ready(function(){
+                    //     $('#latest-work').elastislide({
+                    //         imageW  : 275,
+                    //         margin  : 40                    
+                    //     });
+                    // });

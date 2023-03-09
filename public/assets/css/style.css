@@ -183,6 +183,16 @@ header .navbar .brand.logo {
 	/* max-height: calc(100vh - 100px); */
 }
 
+#latest-work .portfolio-area li
+{
+	width: 275px;
+	
+}
+#latest-work .portfolio-area li:not(:last-of-type)
+{
+	margin-right: 23px;
+}
+
 
 .intro-main{
 	position: absolute;
@@ -209,6 +219,7 @@ header .navbar .brand.logo {
 	text-transform: uppercase;
 	line-height: 1.4;
 }
+
 
 /* -- top menu -- */
 header .navbar-inverse .brand,
