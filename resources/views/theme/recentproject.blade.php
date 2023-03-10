@@ -12,7 +12,7 @@
 
       <div class="row">
         <div class="span12">
-          <h3><a class="btn btn-large btn-success" href="#"><i class="m-icon-big-swapdown m-icon-white"></i></a> Recent works</h3>
+          <h3 class="heading-success"><a class="btn btn-large btn-success" href="#"><i class="m-icon-big-swapdown m-icon-white"></i></a> Recent works</h3>
 
           <div id="latest-work" class=" btleft">
 

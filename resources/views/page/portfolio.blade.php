@@ -37,7 +37,6 @@
                             </li>
                             @endforeach
                           </ul>
-                          
                         </div>
                         @foreach($tags as $tag)
                         <div class="tab-pane" id="{{"category_" . $tag -> id}}">
