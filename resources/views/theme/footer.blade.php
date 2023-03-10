@@ -12,20 +12,18 @@
 					</address>
           </div>
         </div>
-        {{-- <div class="span4">
+        <div class="span4">
           <div class="widget">
             <h4>Browse pages</h4>
             <ul class="nav nav-list regular">
-              <li class="nav-header">More from us</li>
-              <li><a href="#">Work for us</a></li>
-              <li><a href="#">Creative process</a></li>
-              <li><a href="#">Case study</a></li>
-              <li class="nav-header">Quick links</li>
-              <li><a href="#">Scaffold awwards</a></li>
-              <li><a href="#">Meet the team</a></li>
+              <li><a href="{{ route('page_path', ['controller' => 'home'])}}">Home</a></li>
+              <li><a href="{{ route('page_path', ['controller' => 'about'])}}">About Me</a></li>
+              <li><a href="{{ route('page_path', ['controller' => 'portfolio'])}}">Portfolio</a></li>
+              <li><a href="{{ route('page_path', ['controller' => 'contact'])}}">Contact</a></li>
             </ul>
           </div>
         </div>
+        {{-- 
         <div class="span4">
           <div class="widget">
             <h4>Get email updates</h4>
