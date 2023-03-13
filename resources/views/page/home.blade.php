@@ -25,6 +25,7 @@
         @include('theme.service')
         @include('theme.testimonial')
         @include('theme.recentproject')
+        <input hidden id='todaymessage' value="{{$message_count}}"/>
     </div>
 </section>
 @endsection
