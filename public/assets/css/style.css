@@ -1786,6 +1786,7 @@ img.alignright{
 
 .thumbnail .caption h4{
 	font-size: 18px;
+	font-weight: 400;
 }
 
 .portfolio-area .thumbnail .caption, .portfolio-home .thumbnail .caption {
