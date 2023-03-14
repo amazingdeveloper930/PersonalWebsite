@@ -130,6 +130,7 @@ iframe, embed, object {
 .heading-success {
 	border-bottom:1px solid #7cbb00;
 	font-weight:400;
+	text-transform: uppercase;
 }
 .heading-warning {
 	border-bottom:1px solid #ffbb00;
